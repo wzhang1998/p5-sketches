@@ -1,0 +1,135 @@
+body{
+background: radial-gradient(circle, rgb(68, 68, 68) 0%, rgba(0,0,0,1) 100%);
+}
+
+#canvas{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:1;
+  border: 2px #c7c7c7 solid;
+	border-radius: 2px;
+}
+
+#video{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:0;
+  border: 2px #c7c7c7 solid;
+	border-radius: 5px;
+}
+
+.valueDisplay{
+  position: relative;
+  margin-left: 665px; /*Or 665px*/
+  color: #ffffff;
+
+  font-size: 10pt;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+}
+
+.Slider{
+  -webkit-appearance: none;
+  position: relative;
+  margin-top: 5px;
+  margin-left: 665px;/*Or 665px*/
+  margin-bottom: 10px;
+
+  background: none;
+  height:7px;
+  width:200px;
+  border-radius: 2px;
+  border: 1px solid #ffffff;
+}
+
+.Slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width:9px;
+  height:9px;
+  border-radius: 2px;
+  background: #ffffff;
+  outline: none;
+}
+
+
+.imageButtons{
+  position: relative;
+  margin-top:20px;
+
+  width:30px;
+  height:30px;
+  border: none;
+
+  cursor: pointer;
+}
+
+#screenshot_button{
+  margin-left: 675px;/*Or 675px*/
+  background: url('/images/screenshot.png');
+}
+
+#save_drawing_button{
+  margin-left: 20px;
+  background: url('/images/savejson.png');
+}
+
+#index_UP_button{
+  margin-left: 20px;
+  background: url('/images/shapeindex_up.png');
+}
+
+#index_DOWN_button{
+  margin-left: 20px;
+  background: url('/images/shapeindex_down.png');
+}
+
+.Buttons{
+  position: relative;
+  -webkit-appearance: none;
+  margin-top: 20px;
+
+  height:36px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+
+  background: none;
+  font-size: 10pt;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+
+  cursor: pointer;
+}
+
+#edit_button{
+  margin-top: 5px;
+  margin-left: 665px;/*Or 665px*/
+  margin-bottom: 15px;
+
+  width:200px;
+  border-color: #fff;
+  font-size: 10pt;
+  color: #fff;
+}
+
+#complete_button{
+  margin-left: 665px;/*Or 665px*/
+  border-color: #fff;
+  color:  #fff;
+  width:80px;
+}
+
+#undo_button{
+  margin-left: 5px;
+  border-color: #fff;
+  color: #fff;
+  width:50px;
+}
+
+#delete_button{
+  margin-left: 5px;
+  border-color:  #fff;
+  color:  #fff;
+  width:60px;
+}
